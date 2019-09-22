@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="#FFCCA6">
+
+    <ImageView
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/women"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_marginBottom="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/camera"
+        android:drawablePadding="30dp"
+        android:gravity="left|center_vertical"
+        android:onClick="mOnClick"
+        android:paddingLeft="60dp"
+        android:background="@xml/button"
+        android:text="Camera"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_marginBottom="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/upload"
+        android:drawablePadding="30dp"
+        android:gravity="left|center_vertical"
+        android:onClick="mOnClick"
+        android:paddingLeft="60dp"
+        android:background="@xml/button"
+        android:text="Upload"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_marginBottom="25dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/download"
+        android:drawablePadding="30dp"
+        android:gravity="left|center_vertical"
+        android:onClick="mOnClick"
+        android:paddingLeft="60dp"
+        android:background="@xml/button"
+        android:text="Download"
+        android:textSize="24dp"/>
+
+</LinearLayout>
