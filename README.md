@@ -10,17 +10,33 @@
 ## Android
 -상세페이지 : https://github.com/kykymouse/KoreanLipNetAndroid/tree/master/Android  
 - 안드로이드 화면 UI
-  - [ ] 이미지
 - 카메라 촬영 기능
-  - [ ] 이미지
+- 파일 업로드 기능
+- 파일 다운 기능
+
+### 안드로이드 화면 UI
+- [x] App 첫 실행 화면  
+![첫화면](https://user-images.githubusercontent.com/32935365/65888266-326eab00-e3da-11e9-8e2c-78791b5aa009.jpg)
+
+- [x] 동영상 촬영 화면  
+![camera](https://user-images.githubusercontent.com/32935365/65888405-6f3aa200-e3da-11e9-8a73-b16c585abec9.jpg)
+
+- [x] 동영상 업로드 화면  
+![upload](https://user-images.githubusercontent.com/32935365/65888424-7497ec80-e3da-11e9-979d-210199c1364f.jpg)
+
+- [x] 동영상 다운로드 화면  
+![download](https://user-images.githubusercontent.com/32935365/65888435-7b266400-e3da-11e9-8d6d-a8069151b0cc.jpg)
+
+
+### 카메라 촬영 기능
   - [x] 버튼 누르기로 동영상 촬영, 중단
   - [x] 자동으로 3초간 동영상 촬영
-- 파일 업로드 기능
-  - [ ] 이미지
+
+### 파일 업로드 기능
   - [x] 갤러리에서 동영상파일 선택하면 선택된 파일이 서버에 업로드됨
-- 파일 다운 기능
-  - [ ] 이미지
-  - [ ] predict 완료해서 자막 입힌 동영상 파일 핸드폰으로 다운로드
+
+### 파일 다운 기능
+  - [x] predict 완료해서 자막 입힌 동영상 파일 핸드폰으로 다운로드
   
 <hr>
 
